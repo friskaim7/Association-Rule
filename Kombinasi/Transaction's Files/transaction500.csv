@@ -1,0 +1,501 @@
+Transactions
+apple,bread,coke,egg,grape,noodle
+bread,cake,coke,egg,shampoo
+apple,baby diaper,cake,fish,shampoo,soap
+bread,broccoli,noodle,paprika,salt,soap
+baby diaper,biscuit,broccoli,cake,milk,orange juice,salt
+baby diaper,biscuit,coke,salt,shampoo,sugar
+baby diaper,bread,broccoli,egg,fish,soap,sugar
+apple,baby diaper,broccoli,coke,orange juice,soap
+bread,cake,chicken,noodle,orange juice,soap,sugar
+apple,biscuit,broccoli,cake,egg,orange juice,paprika
+baby diaper,broccoli,coke,egg,noodle,salt,sugar
+apple,biscuit,bread,coke,milk,shampoo
+apple,cake,coke,egg,paprika,shampoo,sugar
+bread,coke,fish,grape,paprika,shampoo,sugar
+broccoli,coke,egg,orange juice,salt,shampoo
+cake,coke,grape,noodle,sugar
+broccoli,egg,grape,noodle,shampoo,sugar
+apple,broccoli,cake,chicken,egg,grape,paprika
+baby diaper,biscuit,chicken,coke,fish,soap
+apple,biscuit,chicken,meat,salt,shampoo,soap
+apple,coke,fish,milk,salt,shampoo,soap
+baby diaper,cake,chicken,milk,soap
+bread,cake,egg,meat,milk,paprika,soap
+cake,chicken,coke,egg,paprika,shampoo
+fish,shampoo,sugar
+apple,grape,paprika
+bread,coke,fish,grape,paprika,shampoo,soap
+apple,bread,egg,milk,noodle,sugar
+bread,coke,grape,meat,noodle,orange juice,paprika
+baby diaper,bread,broccoli,cake,egg,soap
+baby diaper,cake,meat,milk,salt,shampoo,sugar
+biscuit,bread,coke,egg,grape,orange juice,sugar
+baby diaper,cake,chicken,egg,paprika,salt,sugar
+biscuit,broccoli,cake,coke,noodle,orange juice
+broccoli,cake,chicken,coke,orange juice
+apple,broccoli,cake,meat,milk,salt,sugar
+baby diaper,bread,egg,meat,salt,soap
+apple,baby diaper,bread,chicken,meat,sugar
+apple,broccoli,cake,fish,meat,orange juice
+apple,egg,grape,milk,paprika,sugar
+apple,cake,chicken,coke,grape,orange juice,paprika
+apple,bread,chicken,coke,fish,noodle,shampoo
+baby diaper,biscuit,fish,meat,orange juice,soap,sugar
+bread,broccoli,grape,meat,noodle,shampoo,soap
+bread,broccoli,fish,grape,meat,orange juice,sugar
+apple,biscuit,broccoli,meat,paprika,salt
+apple,baby diaper,coke,egg,meat,noodle,soap
+bread,cake,egg,fish,noodle,paprika,soap
+egg,meat,milk,shampoo,soap,sugar
+biscuit,chicken,grape,orange juice,paprika,soap,sugar
+bread,milk,orange juice,salt
+milk,soap,sugar
+bread,egg,fish,meat,orange juice,paprika,shampoo
+baby diaper,cake,grape,noodle,sugar
+biscuit,cake,chicken,coke,meat,salt,soap
+bread,cake,chicken,salt,shampoo,soap,sugar
+biscuit,broccoli,cake,fish,orange juice,soap,sugar
+bread,broccoli,coke,noodle,salt,shampoo
+baby diaper,chicken,egg,milk,noodle,paprika,sugar
+baby diaper,bread,grape,noodle,salt,shampoo
+baby diaper,biscuit,egg,grape,orange juice,salt,sugar
+apple,baby diaper,cake,fish,meat,milk,soap
+apple,broccoli,chicken,grape,meat,noodle,soap
+apple,cake,coke,noodle,paprika,salt,soap
+baby diaper,broccoli,cake,chicken,egg,grape,shampoo
+baby diaper,cake,fish,orange juice
+apple,bread,broccoli,fish,paprika,shampoo,sugar
+biscuit,broccoli,cake,egg,orange juice,paprika,soap
+apple,bread,meat,milk,orange juice,salt,soap
+biscuit,egg,fish,salt,shampoo
+broccoli,paprika,sugar
+biscuit,coke,fish,meat,shampoo,soap
+coke,egg,fish
+baby diaper,coke,fish,orange juice
+coke,milk,shampoo,sugar
+apple,broccoli,cake,fish,noodle,sugar
+baby diaper,bread,coke,egg,meat,orange juice,paprika
+apple,baby diaper,chicken,coke,paprika,soap
+apple,baby diaper,bread,coke,fish,shampoo,soap
+biscuit,cake,coke,egg,noodle,orange juice,paprika
+apple,biscuit,egg,fish,orange juice,salt,sugar
+bread,broccoli,fish,grape,noodle,orange juice,soap
+baby diaper,egg,fish,meat,noodle,salt,soap
+apple,bread,cake,egg,fish,salt,shampoo
+baby diaper,fish,meat,sugar
+biscuit,bread,coke,orange juice,shampoo,soap
+apple,chicken,coke,fish,meat,noodle,salt
+apple,chicken,fish,grape,noodle,shampoo
+baby diaper,bread,egg,grape,orange juice,soap,sugar
+apple,broccoli,cake,coke,fish,grape,paprika
+baby diaper,biscuit,chicken,egg,milk,noodle,shampoo
+biscuit,broccoli,cake,fish,meat,milk,noodle
+baby diaper,chicken,fish,noodle,paprika,salt,sugar
+baby diaper,broccoli,chicken,egg,orange juice,shampoo,soap
+baby diaper,cake,chicken,coke,grape,shampoo,sugar
+apple,broccoli,coke,grape,noodle,paprika,salt
+apple,baby diaper,biscuit,broccoli,orange juice,shampoo,soap
+apple,baby diaper,orange juice,salt,shampoo,soap
+baby diaper,biscuit,broccoli,coke,egg,orange juice,sugar
+biscuit,cake,egg,meat,milk,noodle,paprika
+baby diaper,broccoli,coke,grape,meat,milk,salt
+baby diaper,biscuit,bread,cake,meat,paprika,soap
+biscuit,bread,chicken,egg,grape,paprika,soap
+baby diaper,meat,orange juice,paprika,salt,soap
+apple,baby diaper,biscuit,chicken,egg,noodle,orange juice
+apple,cake,orange juice,paprika,soap
+bread,cake,chicken,coke,milk,orange juice,sugar
+apple,bread,broccoli,chicken,coke,meat,paprika
+apple,baby diaper,biscuit,broccoli,coke,fish,orange juice
+baby diaper,cake,egg,fish,orange juice,paprika,shampoo
+apple,baby diaper,biscuit,fish,grape,noodle,shampoo
+coke,egg,fish,noodle,paprika,shampoo
+broccoli,cake,chicken,grape,noodle,soap,sugar
+baby diaper,broccoli,cake,coke,noodle,shampoo,soap
+baby diaper,bread,broccoli,chicken,meat,salt,shampoo
+apple,cake,chicken,coke,meat,orange juice,soap
+apple,broccoli,coke,milk,noodle,paprika,salt
+baby diaper,biscuit,coke,milk,paprika,soap,sugar
+biscuit,bread,broccoli,egg,meat,orange juice,sugar
+apple,cake,egg,milk,salt,soap
+apple,cake,coke,egg,grape,noodle,orange juice
+biscuit,bread,chicken,coke,grape,meat,sugar
+bread,egg,meat,paprika,salt,sugar
+baby diaper,biscuit,chicken,coke,soap
+apple,broccoli,cake,chicken,meat,orange juice,soap
+apple,cake,egg,paprika,salt,soap,sugar
+baby diaper,biscuit,broccoli,coke,paprika,soap,sugar
+apple,baby diaper,cake,egg,paprika,salt
+bread,broccoli,cake,chicken,salt,shampoo
+grape,milk,paprika,salt,sugar
+biscuit,coke,meat,salt,shampoo
+biscuit,fish,noodle,salt,shampoo
+apple,bread,broccoli,cake,coke,noodle,orange juice
+biscuit,broccoli,cake,coke,noodle,shampoo
+baby diaper,bread,chicken,coke,egg,meat,salt
+broccoli,cake,grape,meat,noodle,orange juice,soap
+chicken,fish,milk,orange juice,paprika,soap
+baby diaper,biscuit,chicken,egg,soap
+baby diaper,bread,meat,milk,orange juice,sugar
+bread,meat,orange juice,paprika,salt,shampoo
+bread,broccoli,coke,milk,noodle,salt,sugar
+apple,baby diaper,bread,cake,chicken,egg,milk
+apple,cake,grape,meat,shampoo,soap
+cake,chicken,salt,sugar
+biscuit,chicken,meat,milk,soap,sugar
+baby diaper,biscuit,cake,fish,noodle,orange juice
+apple,biscuit,bread,broccoli,cake,coke,fish
+apple,biscuit,bread,coke,milk,paprika,soap
+baby diaper,biscuit,broccoli,chicken,sugar
+biscuit,bread,cake,egg,milk,noodle,shampoo
+bread,cake,fish,meat,milk,noodle
+baby diaper,chicken,fish,meat,milk,orange juice,sugar
+biscuit,bread,cake,coke,fish,grape,meat
+apple,fish,salt,sugar
+apple,baby diaper,cake,salt,shampoo,sugar
+biscuit,chicken,fish,meat,paprika,salt,sugar
+biscuit,cake,egg,meat,paprika,salt,soap
+baby diaper,bread,coke,fish,milk,orange juice,paprika
+baby diaper,broccoli,egg,grape,meat,noodle
+broccoli,cake,chicken,coke,paprika,salt,soap
+baby diaper,cake,meat,paprika,salt,soap,sugar
+baby diaper,broccoli,fish,milk,paprika,salt,soap
+biscuit,bread,chicken,coke,egg,grape,milk
+baby diaper,biscuit,bread,broccoli,salt,soap
+apple,broccoli,cake,meat,milk,salt
+baby diaper,biscuit,egg,grape,meat,milk,shampoo
+apple,broccoli,chicken,fish,meat,noodle,paprika
+baby diaper,egg,fish,salt,soap,sugar
+broccoli,chicken,egg,fish,milk,orange juice,sugar
+biscuit,bread,fish,grape,orange juice,shampoo,sugar
+broccoli,meat,orange juice
+apple,baby diaper,cake,chicken,egg,meat
+apple,bread,chicken,fish,noodle,salt,sugar
+baby diaper,bread,coke,grape,meat,salt
+apple,chicken,coke,fish,noodle,paprika,soap
+apple,baby diaper,chicken,paprika,salt
+bread,chicken,orange juice,paprika,salt,shampoo
+cake,fish,meat,noodle,paprika
+bread,chicken,coke,fish,milk,orange juice,salt
+apple,biscuit,cake,salt,soap
+apple,biscuit,cake,chicken,grape,soap
+baby diaper,broccoli,cake,chicken,coke,grape,milk
+baby diaper,biscuit,cake,fish,orange juice,shampoo,sugar
+bread,broccoli,chicken,grape,milk,paprika,soap
+baby diaper,biscuit,chicken,fish,milk,noodle,salt
+apple,broccoli,chicken,egg,grape,orange juice
+biscuit,cake,noodle,orange juice,paprika,salt,shampoo
+biscuit,chicken,coke,meat,milk,salt
+apple,biscuit,broccoli,chicken,egg,orange juice,sugar
+apple,biscuit,coke,egg,noodle,paprika,sugar
+apple,biscuit,fish,meat,noodle,orange juice,sugar
+apple,coke,egg,orange juice,paprika,soap
+apple,cake,coke,fish,meat
+baby diaper,broccoli,grape,milk,noodle,soap
+biscuit,bread,broccoli,egg,grape,noodle,paprika
+cake,meat,noodle,orange juice,soap,sugar
+apple,biscuit,cake,chicken,coke,noodle,paprika
+bread,cake,chicken,egg,salt,shampoo,sugar
+apple,bread,chicken,coke,egg,meat,salt
+baby diaper,broccoli,cake,grape,paprika,salt,shampoo
+biscuit,bread,broccoli,milk,noodle,shampoo,sugar
+apple,egg,grape,meat,milk,orange juice
+baby diaper,bread,cake,chicken,meat,orange juice,sugar
+apple,bread,coke,fish,grape,meat,paprika
+broccoli,cake,egg,meat,paprika,salt,shampoo
+baby diaper,cake,coke,egg,fish,grape,soap
+apple,coke,egg,fish,paprika,soap
+apple,bread,broccoli,paprika,soap,sugar
+egg,grape,noodle,orange juice,shampoo,soap
+bread,chicken,coke,fish,noodle,orange juice,shampoo
+biscuit,bread,noodle,orange juice,paprika,soap,sugar
+apple,baby diaper,bread,chicken,coke,fish
+biscuit,broccoli,chicken,egg,grape,paprika,soap
+biscuit,coke,egg,meat,milk,noodle,shampoo
+bread,chicken,fish,soap,sugar
+fish,grape,milk,noodle,shampoo,soap
+apple,bread,coke,grape,soap,sugar
+apple,cake,meat,paprika
+biscuit,meat,paprika,shampoo,sugar
+apple,baby diaper,broccoli,coke,egg,fish,soap
+cake,coke,egg,grape,orange juice,soap
+apple,cake,egg,milk
+apple,biscuit,cake,chicken,grape,salt
+baby diaper,bread,broccoli,egg,grape,meat,paprika
+biscuit,cake,egg,grape,meat,soap
+biscuit,cake,coke,fish,grape,milk,salt
+baby diaper,biscuit,bread,chicken,fish,grape
+biscuit,chicken,egg,fish,meat,paprika
+baby diaper,bread,egg,noodle,salt,soap
+apple,bread,egg,grape,milk,orange juice,sugar
+baby diaper,bread,meat,noodle,paprika,salt,shampoo
+apple,bread,cake,coke,egg,grape,paprika
+apple,coke,egg,grape,milk,paprika,soap
+apple,biscuit,bread,broccoli,cake,chicken,milk
+baby diaper,broccoli,cake,meat,orange juice,paprika,shampoo
+baby diaper,coke,noodle,orange juice,paprika,salt
+biscuit,chicken,coke,grape,paprika,salt
+apple,biscuit,broccoli,cake,chicken,salt,soap
+biscuit,bread,noodle,orange juice,salt,shampoo,sugar
+biscuit,broccoli,chicken,orange juice,salt,soap,sugar
+baby diaper,egg,meat,orange juice
+biscuit,bread,broccoli,fish,milk,orange juice,paprika
+broccoli,chicken,meat,salt,sugar
+apple,broccoli,coke,egg,milk,noodle
+cake,milk,orange juice,paprika,shampoo,sugar
+apple,biscuit,cake,chicken,coke,egg,milk
+baby diaper,cake,grape,noodle,paprika,salt,soap
+baby diaper,broccoli,cake,fish,meat,sugar
+apple,biscuit,cake,coke,grape,salt,shampoo
+apple,broccoli,coke,egg,milk,salt,shampoo
+baby diaper,biscuit,fish,orange juice,salt,shampoo
+baby diaper,biscuit,bread,orange juice,paprika
+baby diaper,biscuit,cake,chicken,grape,soap
+baby diaper,biscuit,bread,coke,paprika,salt
+biscuit,chicken,fish,meat,shampoo
+biscuit,broccoli,grape,salt,shampoo
+broccoli,grape,noodle,orange juice,salt,soap
+apple,biscuit,broccoli,cake,coke,paprika,shampoo
+bread,broccoli,coke,egg,fish,milk,paprika
+apple,bread,cake,chicken,egg,meat,soap
+biscuit,cake,fish,meat,sugar
+biscuit,bread,chicken,grape,orange juice,salt,soap
+baby diaper,biscuit,bread,coke,paprika,salt,soap
+egg,fish,grape,soap,sugar
+baby diaper,coke,grape,shampoo
+baby diaper,bread,coke,fish,meat,milk
+chicken,coke,meat,noodle,orange juice,soap
+biscuit,fish,grape,noodle,shampoo,soap
+apple,baby diaper,bread,broccoli,meat,milk,salt
+bread,egg,fish,milk,orange juice,shampoo
+biscuit,cake,chicken,coke,milk,salt,sugar
+baby diaper,cake,grape,meat,noodle,paprika
+apple,baby diaper,broccoli,milk,noodle,orange juice,shampoo
+baby diaper,bread,chicken,grape,meat,milk,noodle
+biscuit,cake,grape,milk,sugar
+baby diaper,broccoli,chicken,fish,grape,meat,soap
+baby diaper,cake,egg,noodle,shampoo,soap,sugar
+baby diaper,biscuit,broccoli,fish,meat,sugar
+bread,egg,grape,milk,noodle,sugar
+biscuit,salt,soap
+apple,fish,milk,noodle,orange juice,salt
+apple,baby diaper,broccoli,meat,orange juice,shampoo,sugar
+bread,cake,chicken,orange juice,paprika,salt,shampoo
+baby diaper,biscuit,broccoli,grape,soap
+bread,noodle,orange juice,paprika,salt,shampoo,soap
+bread,cake,fish,grape,noodle,orange juice,sugar
+biscuit,coke,meat,noodle,salt
+apple,broccoli,egg,fish,orange juice,paprika,soap
+apple,baby diaper,biscuit,fish,meat,milk,sugar
+bread,broccoli,cake,egg,meat,orange juice
+baby diaper,cake,egg,noodle,paprika,shampoo
+apple,coke,meat,salt,shampoo,soap,sugar
+biscuit,bread,cake,chicken,milk,noodle
+coke,fish,meat,paprika,soap
+apple,cake,coke,noodle,salt
+fish,meat,milk,orange juice,shampoo,sugar
+apple,bread,coke,egg,paprika,shampoo,soap
+apple,bread,coke,meat,milk,paprika,salt
+apple,broccoli,cake,chicken,milk,paprika
+apple,baby diaper,bread,chicken,fish,paprika,shampoo
+apple,chicken,egg,fish,orange juice,paprika,shampoo
+bread,cake,coke,milk,salt,shampoo,sugar
+bread,broccoli,chicken,fish,meat,soap
+apple,coke,fish,meat,soap
+apple,chicken,coke,fish,milk,noodle,soap
+chicken,egg,milk,noodle,shampoo
+apple,baby diaper,broccoli,chicken,egg,milk,sugar
+apple,baby diaper,biscuit,cake,milk,paprika,salt
+biscuit,grape,meat,milk,noodle,shampoo,sugar
+apple,biscuit,chicken,egg,meat,noodle
+apple,broccoli,chicken,fish,orange juice,shampoo,soap
+baby diaper,coke,fish,milk,orange juice,salt,shampoo
+apple,coke,grape,milk,salt,shampoo,sugar
+biscuit,coke,egg,fish,noodle,shampoo
+apple,baby diaper,broccoli,fish,noodle,shampoo,sugar
+biscuit,bread,broccoli,fish
+broccoli,chicken,coke,fish,orange juice,paprika,sugar
+biscuit,chicken,coke,fish,grape,meat,shampoo
+apple,biscuit,egg,fish,sugar
+apple,broccoli,cake,chicken,noodle,paprika,sugar
+chicken,coke,fish,meat,paprika,salt
+baby diaper,cake,coke,fish,grape,orange juice,sugar
+biscuit,broccoli,chicken,fish,grape,orange juice,paprika
+baby diaper,biscuit,fish,milk,paprika,shampoo
+apple,baby diaper,coke,fish,milk,orange juice,shampoo
+bread,chicken,noodle,orange juice,sugar
+apple,chicken,coke,orange juice,paprika,soap
+apple,cake,noodle,orange juice,sugar
+broccoli,cake,meat,noodle,paprika,salt,soap
+bread,broccoli,cake,coke,grape,paprika
+apple,biscuit,bread,meat,orange juice,paprika,salt
+bread,broccoli,cake,egg,fish,grape,paprika
+biscuit,cake,chicken,grape,meat,paprika,shampoo
+egg,meat,noodle,orange juice,salt
+apple,baby diaper,cake,chicken,fish,meat,paprika
+bread,egg,grape,noodle,salt,soap
+apple,biscuit,egg,fish,milk,orange juice,soap
+biscuit,meat,noodle,orange juice,soap,sugar
+baby diaper,biscuit,broccoli,grape,soap
+baby diaper,bread,cake,chicken,coke,soap
+apple,bread,cake,chicken,coke,meat,paprika
+baby diaper,cake,chicken,milk,paprika,soap,sugar
+baby diaper,biscuit,coke,meat,milk
+broccoli,cake,chicken,grape,shampoo
+bread,coke,fish,grape,meat,noodle,sugar
+apple,baby diaper,broccoli,cake,chicken,coke,orange juice
+bread,coke,fish,meat,milk,salt
+bread,fish,grape,meat,noodle,paprika,sugar
+apple,bread,fish,grape,orange juice,paprika
+broccoli,chicken,coke,fish,meat,shampoo,soap
+apple,chicken,coke,milk,paprika,salt,sugar
+broccoli,cake,chicken,coke,orange juice,paprika,soap
+baby diaper,cake,egg,noodle,orange juice,sugar
+apple,chicken,coke,orange juice,paprika,shampoo,soap
+biscuit,bread,grape,meat,milk
+baby diaper,chicken,coke,egg,meat,paprika,salt
+biscuit,chicken,noodle,paprika,salt
+broccoli,chicken,egg,grape,noodle,shampoo,sugar
+bread,cake,coke,egg,milk,orange juice,shampoo
+bread,broccoli,chicken,egg,noodle,salt,soap
+apple,broccoli,cake,fish,sugar
+bread,cake,coke,fish,grape,noodle,paprika
+bread,cake,egg,fish,grape,milk,sugar
+broccoli,cake,noodle,orange juice,paprika,salt,sugar
+apple,biscuit,chicken,coke,fish,meat,shampoo
+bread,cake,grape,noodle,orange juice,salt,shampoo
+apple,bread,coke,fish,meat,noodle,salt
+baby diaper,broccoli,cake,fish,meat,milk,salt
+apple,biscuit,egg,fish,paprika,shampoo
+baby diaper,biscuit,coke,meat,orange juice,paprika,salt
+baby diaper,bread,chicken,coke,egg,grape,soap
+apple,broccoli,cake,coke,grape,meat,salt
+apple,bread,cake,chicken,orange juice,salt,soap
+apple,biscuit,cake,coke,grape,noodle,sugar
+apple,bread,broccoli,egg,milk,paprika,shampoo
+apple,biscuit,bread,broccoli,egg,fish,meat
+apple,baby diaper,bread,fish,grape,paprika,shampoo
+biscuit,bread,broccoli,cake,coke,shampoo,sugar
+apple,bread,egg,fish,meat,milk,noodle
+apple,chicken,coke,egg,meat,orange juice
+apple,broccoli,cake,fish,soap,sugar
+apple,broccoli,cake,orange juice,salt,shampoo,soap
+baby diaper,biscuit,fish,soap,sugar
+apple,biscuit,cake,chicken,fish,salt,soap
+broccoli,cake,paprika
+bread,cake,egg,milk,orange juice,paprika,sugar
+baby diaper,biscuit,broccoli,coke,grape,orange juice,soap
+broccoli,egg,noodle,paprika
+baby diaper,chicken,egg,milk,noodle,shampoo,sugar
+bread,meat,noodle,orange juice,paprika,salt
+baby diaper,bread,broccoli,egg,fish,meat,soap
+apple,bread,cake,chicken,grape,soap
+broccoli,egg,fish,paprika,shampoo,soap
+apple,broccoli,grape,meat,milk,paprika
+bread,broccoli,cake,chicken,egg,soap
+bread,broccoli,egg,milk,paprika,shampoo,soap
+bread,grape,orange juice,shampoo,soap,sugar
+biscuit,cake,egg,grape,meat,milk,sugar
+cake,orange juice,paprika,salt
+biscuit,grape,paprika,soap
+bread,broccoli,cake,fish,milk,orange juice,soap
+apple,broccoli,chicken,orange juice,paprika,shampoo,sugar
+apple,cake,egg,fish,meat,salt,soap
+biscuit,bread,cake,fish,meat,orange juice,soap
+bread,cake,chicken,egg,meat,shampoo,sugar
+broccoli,cake,chicken,grape,sugar
+biscuit,coke,milk,orange juice,paprika,salt,shampoo
+baby diaper,bread,fish,noodle,salt,shampoo,soap
+baby diaper,bread,chicken,coke,grape,meat,noodle
+apple,chicken,coke,noodle,orange juice,salt,soap
+fish,paprika,salt,soap,sugar
+bread,cake,coke,meat,orange juice,paprika,sugar
+biscuit,broccoli,chicken,orange juice,salt,shampoo,soap
+apple,chicken,coke,grape,meat,shampoo
+baby diaper,biscuit,chicken,coke,grape,meat,shampoo
+baby diaper,biscuit,bread,chicken,egg,fish,meat
+bread,broccoli,cake,chicken,coke,paprika,soap
+apple,baby diaper,chicken,coke,meat,milk,salt
+apple,egg,grape,paprika,shampoo,sugar
+apple,cake,coke,fish,meat,shampoo,sugar
+biscuit,broccoli,egg,grape,salt
+baby diaper,bread,fish,meat,milk,shampoo,sugar
+cake,egg,noodle,sugar
+apple,bread,egg,fish,meat,paprika
+biscuit,cake,milk,noodle,salt,shampoo,soap
+biscuit,cake,chicken,orange juice,salt
+apple,bread,cake,milk,orange juice,paprika
+apple,bread,fish,noodle,orange juice,soap
+baby diaper,broccoli,chicken,egg,milk,paprika,salt
+apple,coke,egg,meat,orange juice,soap,sugar
+biscuit,broccoli,chicken,grape,milk,noodle,paprika
+apple,baby diaper,chicken,fish,meat,milk,salt
+broccoli,chicken,coke,paprika
+apple,broccoli,chicken,coke,egg,paprika
+baby diaper,bread,fish,meat,milk,orange juice,shampoo
+bread,broccoli,egg,meat,shampoo,sugar
+apple,broccoli,chicken,grape,milk,orange juice,soap
+apple,broccoli,grape,meat,milk,shampoo,soap
+broccoli,noodle,shampoo,soap,sugar
+biscuit,chicken,egg,fish,meat,orange juice,shampoo
+bread,egg,meat,noodle,orange juice,shampoo,soap
+apple,biscuit,coke,fish,grape,sugar
+biscuit,bread,fish,grape,salt,shampoo,sugar
+apple,bread,egg,meat,noodle,salt
+apple,baby diaper,biscuit,cake,coke,milk,sugar
+baby diaper,fish,noodle,orange juice,paprika
+baby diaper,cake,coke,milk,soap,sugar
+broccoli,coke,egg,fish
+baby diaper,fish,grape,meat,orange juice,paprika,soap
+bread,broccoli,cake,salt,soap
+biscuit,chicken,coke,egg,milk,orange juice
+bread,broccoli,egg,meat,milk,noodle
+apple,bread,cake,chicken,meat,salt,sugar
+apple,baby diaper,biscuit,broccoli,salt
+baby diaper,orange juice,paprika,shampoo,sugar
+biscuit,bread,coke,fish,meat,soap,sugar
+grape,orange juice,paprika,salt,shampoo,soap
+bread,cake,chicken,fish,grape,soap
+chicken,coke,grape,milk,noodle,shampoo
+biscuit,broccoli,chicken,egg,grape,meat,orange juice
+apple,chicken,egg,meat,orange juice,soap,sugar
+baby diaper,bread,broccoli,egg,orange juice,shampoo
+apple,bread,broccoli,grape,milk,salt
+apple,broccoli,fish,grape,meat,paprika,sugar
+biscuit,bread,cake,fish,grape,noodle,orange juice
+apple,biscuit,chicken,orange juice,paprika,shampoo,soap
+apple,biscuit,cake,chicken,egg,grape,salt
+apple,baby diaper,biscuit,bread,noodle,paprika,sugar
+grape,meat,milk,orange juice,salt,sugar
+bread,grape,milk,noodle,shampoo,soap
+apple,biscuit,cake,chicken,fish,sugar
+grape,meat,milk,noodle,salt,soap
+broccoli,coke,paprika,salt,shampoo,soap
+baby diaper,coke,milk,noodle,orange juice,shampoo,soap
+apple,cake,grape,meat,milk,paprika,salt
+baby diaper,biscuit,bread,broccoli,fish,milk,paprika
+baby diaper,biscuit,chicken,fish,milk,shampoo,soap
+broccoli,coke,noodle,paprika,salt
+cake,egg,fish,noodle,orange juice
+apple,bread,broccoli,egg,paprika,shampoo
+baby diaper,broccoli,chicken,meat,noodle,orange juice,shampoo
+apple,chicken,egg,grape,shampoo,sugar
+apple,bread,chicken,fish,shampoo
+biscuit,bread,chicken,egg,milk,paprika,sugar
+apple,bread,milk,paprika,salt,soap
+apple,baby diaper,broccoli,cake,egg,salt,sugar
+bread,cake,coke,grape,milk,paprika,soap
+broccoli,cake,egg,fish,meat,orange juice,shampoo
+biscuit,coke,egg,fish,milk
+apple,biscuit,chicken,fish,grape,paprika,sugar
+biscuit,broccoli,coke,meat,shampoo,sugar
+apple,cake,noodle,orange juice,paprika,salt
+baby diaper,bread,broccoli,cake,fish,orange juice,soap
+apple,baby diaper,broccoli,cake,chicken,soap,sugar
+bread,chicken,fish,meat,soap
+chicken,egg,fish,salt
+apple,baby diaper,broccoli,orange juice,paprika,shampoo,soap
+baby diaper,biscuit,coke,fish,milk,noodle
+broccoli,coke,fish,grape,noodle,paprika
+apple,baby diaper,biscuit,bread,coke,sugar
