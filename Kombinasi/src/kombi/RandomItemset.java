@@ -15,9 +15,7 @@ import com.opencsv.CSVWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -97,7 +95,7 @@ public class RandomItemset{
     
     public static void writeCSV(ArrayList<String[]> transaction){
 
-        File file = new File("transaction10m++.csv");
+        File file = new File("transaction1000.csv");
         try{
             FileWriter outputfile = new FileWriter(file);
             CSVWriter writer = new CSVWriter(outputfile, ',', 
@@ -120,7 +118,7 @@ public class RandomItemset{
     
     public static void main(String[] args){
         ArrayList<ArrayList<Integer>> hasil = GenerateCombination(20);
-        GenerateTransaction(10000000);
-        System.out.println("Make 10m transactions. \nMax item per transaction is 20 item.");
+        GenerateTransaction(1000);
+        System.out.println("Success! Make 1000 transactions. \nMax item per transaction is 20 item.");
     }
 }
