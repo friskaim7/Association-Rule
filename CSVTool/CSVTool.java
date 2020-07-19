@@ -3,6 +3,10 @@ package CSVTool;
 import java.io.FileReader;
 import java.util.List;
 import com.opencsv.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class CSVTool {
     String file;
@@ -78,6 +82,29 @@ public class CSVTool {
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+    
+    public static void writeCSV(ArrayList<String[]> transaction){
+
+        File file = new File("transactions.csv");
+        try{
+            FileWriter outputfile = new FileWriter(file);
+            CSVWriter writer = new CSVWriter(outputfile, ',', 
+                                         CSVWriter.NO_QUOTE_CHARACTER, 
+                                         CSVWriter.DEFAULT_ESCAPE_CHARACTER, 
+                                         CSVWriter.DEFAULT_LINE_END); 
+
+            List<String[]> data = new ArrayList<String[]>();
+            data.add(new String[]{"Transactions"});
+            for (int i=0; i < transaction.size() ; i++) {
+                data.add(transaction.get(i));
+            }
+            writer.writeAll(data);
+            
+            writer.close(); 
+        }catch (IOException e){
+            e.printStackTrace(); 
         }
     }
 }
