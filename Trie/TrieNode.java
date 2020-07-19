@@ -56,6 +56,10 @@ public class TrieNode implements Comparable<TrieNode> {
         return this.product == otherProduct;
     }
 
+    public boolean isLeaf(){
+        return this.childrens.size() == 0;
+    }
+
     public boolean addChild(TrieNode childNode) {
         return this.childrens.add(childNode);
     }
@@ -68,15 +72,12 @@ public class TrieNode implements Comparable<TrieNode> {
         TrieNode currentNode = new TrieNode();
         Iterator<TrieNode> childrensIterator = this.childrens.iterator();
 
-        // currentNode = childrensIterator.next();
         while (childrensIterator.hasNext()) {
             currentNode = childrensIterator.next();
-            if (currentNode.product.equals(productName)) {
+            if (currentNode.product.equalsIgnoreCase(productName)) {
                 break;
             }
         }
-
         return currentNode;
     }
-
 }
