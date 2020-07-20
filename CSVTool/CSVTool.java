@@ -85,9 +85,9 @@ public class CSVTool {
         }
     }
     
-    public static void writeCSV(ArrayList<String[]> transaction){
+    public static void writeCSV(ArrayList<String[]> transaction, String fileName){
 
-        File file = new File("transactions.csv");
+        File file = new File(fileName);
         try{
             FileWriter outputfile = new FileWriter(file);
             CSVWriter writer = new CSVWriter(outputfile, ',', 
