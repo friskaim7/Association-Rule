@@ -1,4 +1,4 @@
-package kombi;
+package Kombinasi;
 
 /*
  * Nama  : Nisa Shadrina
