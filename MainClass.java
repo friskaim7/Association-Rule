@@ -22,7 +22,9 @@ public class MainClass {
                 System.out.print("\nEnter file name : ");
                 String file = getUserInput();
                 if (checkFileExistence(file)) {
-                    doGenerateAssociationRule(file);
+                    System.out.print("Enter the minimum frequency : ");
+                    float threshold = scanner.nextFloat();
+                    doGenerateAssociationRule(file, threshold);
                 } else {
                     System.out.println("Invalid file. Please try again. . .\n");
                     showMenu();
@@ -42,23 +44,12 @@ public class MainClass {
         }
     }
 
-    public static void doGenerateAssociationRule(String file) {
+    public static void doGenerateAssociationRule(String file, float threshold) {
         Trie transcationTrie = new Trie();
         transcationTrie.generateTransactionTrie(file);
-        System.out.println("Total Transaction : " + transcationTrie.getTotalTransaction());
-        transcationTrie.preorderPrint(transcationTrie.getRoot());
-
-        System.out.println("\n\n");
-
-        ArrayList<TrieNode> emptyTemporaryList = new ArrayList<>();
-        transcationTrie.convertTrietoArrayList(transcationTrie.getRoot(), emptyTemporaryList);
-        for (ArrayList<TrieNode> transaction : transcationTrie.getAllTransactions()) {
-            for (TrieNode trieNode : transaction) {
-                System.out.print("(" + trieNode.getProduct() + " " + trieNode.getFrequency() + ") ");
-            }
-            System.out.println("\n");
-        }
-
+        System.out.println("\nTotal Transaction : " + transcationTrie.getTotalTransaction());
+        System.out.println();
+        transcationTrie.printRule(threshold);
     }
 
     public static void showMenu() {
