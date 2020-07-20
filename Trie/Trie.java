@@ -15,13 +15,14 @@ public class Trie {
     public static void main(String[] args) {
         Trie transcationTrie = new Trie();
         transcationTrie.generateTransactionTrie("transactions.csv");
-        System.out.println("Total Transaction : " + transcationTrie.totalTransaction);
-        transcationTrie.preorderPrint(transcationTrie.root);
+        System.out.println("\nTotal Transaction : " + transcationTrie.totalTransaction);
+        // transcationTrie.preorderPrint(transcationTrie.root);
 
-        System.out.println("\n\n");
+        System.out.println("\n");
 
         ArrayList<TrieNode> emptyTemporaryList = new ArrayList<>();
         transcationTrie.convertTrietoArrayList(transcationTrie.root, emptyTemporaryList);
+        // System.out.println(transcationTrie.allTransactions);
         for (ArrayList<TrieNode> transaction : transcationTrie.allTransactions) {
             for (TrieNode trieNode : transaction) {
                 System.out.print("(" + trieNode.product + " " + trieNode.frequency + ") ");
@@ -69,7 +70,6 @@ public class Trie {
             while (nodeChildrenIterator.hasNext()) {
                 TrieNode nextNode = nodeChildrenIterator.next();
                 ArrayList<TrieNode> temp = (ArrayList<TrieNode>) toFillList.clone();
-
                 convertTrietoArrayList(nextNode, temp);
             }
         }
@@ -115,12 +115,8 @@ public class Trie {
                     TrieNode productNode = new TrieNode(cell.trim().toLowerCase());
 
                     if (currentNode.addChild(productNode)) {
-                        System.out.println("add " + productNode.product + " success. child of " + currentNode.product);
                     } else {
                         productNode = currentNode.searchChild(cell);
-                        if (productNode.product.equals(cell)) {
-                            System.out.println(productNode.product + " found. child of " + currentNode.product);
-                        }
                     }
                     currentNode = productNode;
                 }
@@ -129,8 +125,25 @@ public class Trie {
                 currentNode.addFrequency();
                 this.totalTransaction++;
             }
-            System.out.println("Frequency : " + currentNode.frequency);
-            System.out.println("--------------------------");
+        }
+    }
+
+    public void printRule(float threshold) {
+        ArrayList<TrieNode> emptyTemporaryList = new ArrayList<>();
+        this.convertTrietoArrayList(this.getRoot(), emptyTemporaryList);
+
+        for (ArrayList<TrieNode> transaction : this.getAllTransactions()) {
+            String temporaryString = "";
+            int numberOfTransactions = 0;
+
+            for (TrieNode trieNode : transaction) {
+                temporaryString += trieNode.product + ",";
+                numberOfTransactions += trieNode.frequency;
+            }
+            if (numberOfTransactions >= threshold) {
+                System.out.println(
+                        temporaryString.substring(0, temporaryString.length() - 1) + "   -->  " + numberOfTransactions);
+            }
         }
     }
 }
