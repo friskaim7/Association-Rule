@@ -11,11 +11,6 @@ import java.util.ArrayList;
 public class CSVTool {
     String file;
 
-    public static void main(String[] args) {
-        CSVTool csvTool = new CSVTool("transactions.csv");
-        csvTool.readDataOnly();
-    }
-
     public CSVTool(String fileName) {
         this.file = fileName;
     }
