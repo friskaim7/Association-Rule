@@ -17,20 +17,15 @@ import java.util.Set;
  * @author hp
  */
 public class GenerateRule {
-    public static void MakingAssociationRule(String fileName){
+    private static ArrayList<ArrayList<String>> itemsetList = new ArrayList<>();
+    
+    public GenerateRule(){}
+    
+    public static void makingAssociationRule(String fileName){
         FrequentItemsetGenerator<String> generator = new FrequentItemsetGenerator<>(); 
-        List<ArrayList<String>> itemsetList = new ArrayList<>();
         
-        Trie transactionTrie = new Trie();
-        transactionTrie.generateTransactionTrie(fileName);
-
-        ArrayList<String> emptyTemporaryList = new ArrayList<>();
-        transactionTrie.convertTrietoArrayList(transactionTrie.getRoot(), emptyTemporaryList);
-        for(int i = 0; i < transactionTrie.getTotalTransaction() - 1; i++){
-            itemsetList.add(i, transactionTrie.getAllTransactions().get(i));
-        }
-        
-        FrequentItemset<String> data = generator.generate(itemsetList, 0.5);
+        addTransaction(fileName);
+        FrequentItemset<String> data = generator.generate(itemsetList, 0.3);
 
         System.out.println("--- Frequent itemsets ---");
 
@@ -39,12 +34,23 @@ public class GenerateRule {
         }
 
         List<AssociationRule<String>> associationRuleList = new AssociationRuleGenerator<String>()
-                                      .mineAssociationRules(data, 0.5);
+                                      .mineAssociationRules(data, 0.02);
         System.out.println();
         System.out.println("--- Association rules ---");
 
         for (AssociationRule<String> rule : associationRuleList) {
             System.out.printf("%s\n", rule);
+        }
+    }
+    
+    public static void addTransaction(String fileName){
+        Trie transactionTrie = new Trie();
+        transactionTrie.generateTransactionTrie(fileName);
+
+        ArrayList<String> emptyTemporaryList = new ArrayList<>();
+        transactionTrie.convertTrietoArrayList(transactionTrie.getRoot(), emptyTemporaryList); 
+        for(int i = 0; i < transactionTrie.getTotalTransaction(); i++){
+            itemsetList.add(i, transactionTrie.getAllTransactions().get(i));
         }
     }
 }
