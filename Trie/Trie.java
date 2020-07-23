@@ -7,41 +7,21 @@ import java.util.List;
 import CSVTool.*;
 
 public class Trie {
-
     private TrieNode root; // the only TrieNode with null product field
     private int totalTransaction;
-    private ArrayList<ArrayList<TrieNode>> allTransactions;
-
-    public static void main(String[] args) {
-        Trie transcationTrie = new Trie();
-        transcationTrie.generateTransactionTrie("transactions.csv");
-        System.out.println("\nTotal Transaction : " + transcationTrie.totalTransaction);
-        // transcationTrie.preorderPrint(transcationTrie.root);
-
-        System.out.println("\n");
-
-        ArrayList<TrieNode> emptyTemporaryList = new ArrayList<>();
-        transcationTrie.convertTrietoArrayList(transcationTrie.root, emptyTemporaryList);
-        // System.out.println(transcationTrie.allTransactions);
-        for (ArrayList<TrieNode> transaction : transcationTrie.allTransactions) {
-            for (TrieNode trieNode : transaction) {
-                System.out.print("(" + trieNode.product + " " + trieNode.frequency + ") ");
-            }
-            System.out.println("\n");
-        }
-    }
+    private ArrayList<ArrayList<String>> allTransactions;
 
     public Trie() {
         this.root = new TrieNode();
         this.totalTransaction = 0;
-        this.allTransactions = new ArrayList<ArrayList<TrieNode>>();
+        this.allTransactions = new ArrayList<ArrayList<String>>();
     }
 
     public TrieNode getRoot() {
         return root;
     }
 
-    public ArrayList<ArrayList<TrieNode>> getAllTransactions() {
+    public ArrayList<ArrayList<String>> getAllTransactions() {
         return allTransactions;
     }
 
@@ -53,7 +33,7 @@ public class Trie {
         this.root = root;
     }
 
-    public void setAllTransactions(ArrayList<ArrayList<TrieNode>> allTransactions) {
+    public void setAllTransactions(ArrayList<ArrayList<String>> allTransactions) {
         this.allTransactions = allTransactions;
     }
 
@@ -61,15 +41,15 @@ public class Trie {
         this.totalTransaction = totalTransaction;
     }
 
-    public void convertTrietoArrayList(TrieNode node, ArrayList<TrieNode> toFillList) {
+    public void convertTrietoArrayList(TrieNode node, ArrayList<String> toFillList) {
         if (node.product != null) {
-            toFillList.add(node);
+            toFillList.add(node.getProduct());
         }
         if (!node.isLeaf()) {
             Iterator<TrieNode> nodeChildrenIterator = node.childrens.iterator();
             while (nodeChildrenIterator.hasNext()) {
                 TrieNode nextNode = nodeChildrenIterator.next();
-                ArrayList<TrieNode> temp = (ArrayList<TrieNode>) toFillList.clone();
+                ArrayList<String> temp = (ArrayList<String>) toFillList.clone();
                 convertTrietoArrayList(nextNode, temp);
             }
         }
@@ -124,25 +104,6 @@ public class Trie {
             if (currentNode.product != null) {
                 currentNode.addFrequency();
                 this.totalTransaction++;
-            }
-        }
-    }
-
-    public void printRule(float threshold) {
-        ArrayList<TrieNode> emptyTemporaryList = new ArrayList<>();
-        this.convertTrietoArrayList(this.getRoot(), emptyTemporaryList);
-
-        for (ArrayList<TrieNode> transaction : this.getAllTransactions()) {
-            String temporaryString = "";
-            int numberOfTransactions = 0;
-
-            for (TrieNode trieNode : transaction) {
-                temporaryString += trieNode.product + ",";
-                numberOfTransactions += trieNode.frequency;
-            }
-            if (numberOfTransactions >= threshold) {
-                System.out.println(
-                        temporaryString.substring(0, temporaryString.length() - 1) + "   -->  " + numberOfTransactions);
             }
         }
     }
